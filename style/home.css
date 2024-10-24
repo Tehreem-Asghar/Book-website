@@ -1,0 +1,108 @@
+/*
+9B7EBD
+D4BEE4
+EEEEEE
+*/
+
+.sectionTwo{
+  background-color: #9B7EBD;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1em;
+  height: auto;
+  width: 100vw;
+}
+
+.book{
+  
+  height: 80px;
+  width: 80px;
+  color: #D4BEE4;
+
+}
+
+main{
+  height: auto;
+  width: 100vw;
+  background-color: #D4BEE4;
+   
+}
+
+.main {
+ 
+    display: flex;
+    align-items: center; /* Centering content vertically */
+    justify-content: center; /* Centering content horizontally */
+
+    
+  }
+  
+  .sectionOne {
+    display: flex;
+    justify-content: space-between; /* Distributes text and image */
+    align-items: center; /* Aligns items vertically */
+    gap: 3em;
+    max-width: 1200px; /* Limits the content width */
+    margin: 0 auto; /* Center the content */
+    padding: 2em;
+  }
+  
+  .text {
+    max-width: 600px; /* Control text container width */
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+     
+  }
+  
+  .text h2 {
+    font-size: 2.5rem;
+    color: #3B1E54;
+  }
+  
+  .text p {
+    color: #3B1E54;
+    line-height: 1.5;
+    font-size: 1.2rem;
+  }
+  
+  .image {
+    max-width: 450px; /* Controls image size */
+  }
+  
+  @media (max-width: 768px) {
+    .sectionOne {
+      flex-direction: column-reverse; /* Image on top for small screens */
+      gap: 2em;
+      text-align: center; /* Centers the text */
+    }
+  
+    .image {
+      width: 100%; /* Image takes full width */
+      height: auto;
+    }
+    
+  
+    .text h2 {
+      font-size: 2rem; /* Reduce heading size for small screens */
+      padding: 0 3em; 
+    }
+  
+    .text p {
+      font-size: 1rem; /* Reduce paragraph size for small screens */
+      padding: 0 3em; 
+    }
+  }
+  
+
+
+
+
+/* .backgroundImage {
+    background-image: url('/images/banner.png');
+    background-size: cover; /* Ensures image covers the entire area */
+   /* background-position: center; /* Centers the image */
+  /*  background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh; /* Height adjusts based on the viewport height */
+/*} */

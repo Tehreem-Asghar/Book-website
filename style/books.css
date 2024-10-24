@@ -1,0 +1,26 @@
+/* Custom CSS for Books component */
+.background {
+    background-color: #f5f5f5; /* Light background color */
+    min-height: 100vh; /* Full viewport height */
+    width: 100%;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px; /* Centering container max width */
+    margin: 0 auto; /* Center horizontally */
+    padding: 0 1rem; /* Padding for smaller screens */
+  }
+  
+  @media (min-width: 640px) {
+    .container {
+      padding: 0 1.5rem; /* Padding for medium screens */
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .container {
+      padding: 0 2rem; /* Padding for large screens */
+    }
+  }
+  

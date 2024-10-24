@@ -1,0 +1,105 @@
+main {
+  font-family: 'Arial', sans-serif;
+  padding: 1em; 
+  margin: auto;
+  background-color: #EBD3F8;
+  max-width: 1200px; /* Controlled max-width */
+  width: 100%;
+}
+
+section {
+  margin-bottom: 2em; /* Added more space between sections */
+  padding: 20px;
+}
+
+.about {
+  font-size: 36px;
+  color: #3B1E54;
+  margin-bottom: 1em;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.secondHeading {
+  font-size: 30px;
+  color: #3B1E54;
+  font-weight: 600;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #3B1E54;
+  padding-bottom: 5px;
+}
+
+/* Paragraph Styling */
+p {
+  font-size: 18px;
+  color: #7A1CAC;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+/* Strong text */
+strong {
+  color: #7A1CAC;
+}
+
+/* List Styling */
+ul {
+  margin-left: 20px;
+}
+
+ul li {
+  font-size: 20px;
+  color: #3B1E54;
+  margin-bottom: 8px;
+  position: relative;
+}
+
+ul li::before {
+  content: '✔';
+  color: #7A1CAC;
+  position: absolute;
+  left: -20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  main {
+      padding: 1em;
+  }
+
+  .about {
+      font-size: 28px;
+  }
+
+  .secondHeading {
+      font-size: 24px;
+  }
+
+  p, ul li {
+      font-size: 16px;
+  }
+
+  section {
+      padding: 15px; /* Adjust padding for small screens */
+  }
+}
+
+@media (max-width: 480px) {
+  main {
+      padding: 0.8em; /* Reduced padding further for mobile */
+  }
+
+  .about {
+      font-size: 24px;
+  }
+
+  .secondHeading {
+      font-size: 20px;
+  }
+
+  p, ul li {
+      font-size: 14px;
+  }
+}

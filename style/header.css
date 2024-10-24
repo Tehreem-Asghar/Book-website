@@ -1,0 +1,101 @@
+ * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; 
+}
+
+.header {
+    background: #3B1E54;
+    color: white;
+    width: 100%;
+    min-height: 60px;
+    padding: 0 2em;
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: white;
+}
+
+.navbar div {
+    display: flex;
+    align-items: center;
+}
+
+.navbar div h1 {
+    margin-right: 2em; /* Adds space between logo and links */
+ }
+
+.Navigation {
+    display: flex;
+    gap: 22px; /* Space between each link */
+  
+}
+
+.Navigation a {
+    text-decoration: none;
+    color: white; 
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Navigation a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.navbar div:last-child {
+    font-size: 24px; /* Icon size */
+    color: white; /* Cart icon color */
+    margin-left: 1em;
+}
+
+.menuIcon {
+    display: none; /* Hide by default on larger screens */
+}
+
+@media (max-width: 640px) { 
+   .Navigation a{
+    display: none;
+   }
+
+    .navigationPages{
+        flex-direction: column;
+        position: absolute;
+        top: 60px; /* Below the header */
+        left: 0;
+        background-color: rgba(155, 126, 189, 0.8);
+        width: 100%;
+        height: auto;
+        padding: 1em;
+        transition: transform 0.3s ease-in-out;
+        z-index: 1; 
+        
+    }
+
+    .navigationPages a{
+        color: white;
+        margin-bottom: 1em;
+        font-size: 20px;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    .navbar div h1 {
+        font-size: 20px; 
+        
+    }
+
+    .menuIcon {
+        display: block; /* Show on screens smaller than 640px */
+        font-size: 24px; /* Adjust icon size */
+        margin-right: 1em;
+    }
+
+   
+}  
+ 
