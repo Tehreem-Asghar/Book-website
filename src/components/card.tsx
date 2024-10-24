@@ -4,7 +4,7 @@ import { books } from '../../mydb/page';
 import Image from 'next/image';
 import Stars from './stars';
 import { useRouter } from 'next/navigation';
-
+import '/style/card.css'
 
 interface booktype {
   id: number;
@@ -62,35 +62,32 @@ export function Card() {
   };
 
   return (
-    <div className="container mx-auto ">
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-9 pt-10">
+    <div className="book-container">
+      <div className="book-grid">
         {books.map((book) => (
-          <div
-            className="w-full bg-white rounded-lg shadow-md overflow-hidden transform transition-transform duration-300 hover:scale-105 min-h-[400px] flex flex-col justify-between"
-            key={book.id}
-          >
+          <div className="book-card" key={book.id}>
             <Image
               src={book.image}
               alt={book.title}
               width={150}
               height={150}
-              className="w-[100%] md:h-44"
+              className="book-image"
             />
-            <div className="p-4">
+            <div className="book-content">
               <h2
                 onClick={() => router.push(`/books/${book.id}`)}
-                className="text-lg font-serif text-purple-800 mb-2 line-clamp-2 cursor-pointer"
+                className="book-title"
               >
                 {book.title}
               </h2>
-              <p className="text-sm text-pink-600">{book.Authors}</p>
-              <p className="text-orange-600 font-bold text-lg mt-2">price: ${book.price}</p>
+              <p className="book-author">{book.Authors}</p>
+              <p className="book-price">Price: ${book.price}</p>
               <h1>
                 <Stars stars={book.star} rating={book.rating} />
               </h1>
               <button
-                onClick={() => handleBuyNow(book)} 
-                className="mt-4 w-[100%] bg-orange-500 text-white py-2 px-4 rounded hover:bg-orange-600 transition duration-300"
+                onClick={() => handleBuyNow(book)}
+                className="buy-now-btn"
               >
                 Buy Now
               </button>
@@ -100,6 +97,7 @@ export function Card() {
       </div>
     </div>
   );
+  
 }
 
 
