@@ -1,4 +1,9 @@
 /* Main container for book details */
+/* main{
+  height: 100vh;
+  width: 100vw;
+} */
+
 .book-container {
     max-width: 1024px;
     margin: 0 auto;
@@ -24,11 +29,13 @@
   .book-image {
     width: 100%;
     max-width: 300px;
+    height: auto;
   }
   
   .book-img-style {
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    height: auto;
   }
   
   /* Book information */

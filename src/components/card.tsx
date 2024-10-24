@@ -69,8 +69,8 @@ export function Card() {
             <Image
               src={book.image}
               alt={book.title}
-              width={150}
-              height={150}
+              width={300}
+              height={200}
               className="book-image"
             />
             <div className="book-content">

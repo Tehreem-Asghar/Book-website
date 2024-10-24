@@ -1,0 +1,38 @@
+/* Container for stars and rating */
+.stars-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Star icons */
+  .star {
+    margin-top: 8px;
+    color:chocolate; /* Yellow for stars */
+    font-size: 20px;
+  }
+  
+  /* Adjust size for half star and empty star */
+  .full-star {
+    color: chocolate;
+  }
+  
+  .half-star {
+    color: chocolate;
+  }
+  
+  .empty-star {
+    color: chocolate;
+  }
+  
+  /* Rating text styling */
+  .rating-text {
+    margin-left: 8px;
+    font-size: 14px;
+    color: #4B5563; /* Greyish text */
+  }
+  
+  .rating-number {
+    color: #00CED1; /* Cyan color for rating */
+    font-weight: bold;
+  }
+  

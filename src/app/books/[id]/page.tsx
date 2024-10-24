@@ -26,11 +26,14 @@ interface CartItem {
 
 
 export default function Book({ params }: { params: { id: string } }) {
-  const { id } = params;
+   const {id}  = params;
   const combine = books.concat(featureBooks)
   const booksData: booktype[] = combine;
   const [quantity, setquantity] = useState<number>(1);
   const [confirmationMessage, setConfirmationMessage] = useState<string | null>(null); 
+
+ // Find out specific book
+ const selectedBook = booksData.find((item) => String(item.id) == id);
 
   // Increment and Decrement functions
   const increment = () => {
@@ -40,8 +43,7 @@ export default function Book({ params }: { params: { id: string } }) {
     setquantity((prev) => (prev > 1 ? prev - 1 : 1));
   };
 
-  // Find out specific book
-  const selectedBook = booksData.find((item) => String(item.id) == id);
+ 
 
   // If book is not found
   if (!selectedBook) {
@@ -87,7 +89,7 @@ export default function Book({ params }: { params: { id: string } }) {
   
 
   return (
-
+   <main>
     <div key={selectedBook.id} className="book-container">
   <div className="book-details">
     {/* Book image */}
@@ -151,13 +153,13 @@ export default function Book({ params }: { params: { id: string } }) {
   <h1 className="book-description-title">About this item</h1>
   <p className="book-description">{selectedBook.description}</p>
 </div>
-
+</main>
 
   //   <div key={selectedBook.id} className="max-w-4xl mx-auto p-6">
   //     <div className="flex flex-col md:flex-row items-center gap-8">
   //       {/* Book image */}
   //       <div className="w-full md:w-1/3">
-  //         <Image
+  //          <Image
   //           src={selectedBook.image}
   //           alt={selectedBook.title}
   //           width={300}
@@ -229,5 +231,6 @@ export default function Book({ params }: { params: { id: string } }) {
   //     </h1>
   //     <p className="text-gray-600 font-serif">{selectedBook.description}</p>
   //   </div>
+ 
    );
 }
