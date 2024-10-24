@@ -6,6 +6,8 @@ import { SiBookstack } from "react-icons/si";
 import { GiBookshelf } from "react-icons/gi";
 import { FaLaptopCode,FaCode } from "react-icons/fa";
 import { IoLogoCodepen } from "react-icons/io";
+import { FeatureBooks } from "@/components/featureBooks";
+import ContactPage from './contact/page'
 
 export default function Home() {
   return (
@@ -25,10 +27,10 @@ export default function Home() {
             text="Explore Now"
             style={{
               padding: "10px 20px",
-              backgroundColor: "#9B7EBD",
+              backgroundColor: "#3B1E54",
               color: "white",
               borderRadius: "5px",
-              border: "2px solid #9B7EBD",
+              border: "2px solid #3B1E54",
               cursor: "pointer",
                
             }}
@@ -53,8 +55,15 @@ export default function Home() {
        <IoLogoCodepen  className="book" />
        </section>
       <section>
-         <About></About>
+         <FeatureBooks/>
         </section>
+
+        <section>
+          <ContactPage/>
+        </section>
+        <section>
+          <About/>
+          </section>
       </main>
          
         </>

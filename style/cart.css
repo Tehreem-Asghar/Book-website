@@ -1,0 +1,68 @@
+/* styles/cart.css */
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem; /* Equivalent to mt-20 */
+    padding: 1rem; /* Equivalent to p-4 */
+  }
+  
+  .table-container {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .table-header {
+    background-color: #d1fae5; /* Equivalent to bg-green-100 */
+  }
+  
+  .table-cell {
+    padding: 1rem; /* Equivalent to p-4 */
+    text-align: center;
+  }
+  
+  .table-row {
+    border-bottom: 1px solid #34d399; /* Equivalent to border-green-400 */
+  }
+  
+  .subtotal {
+    font-weight: bold;
+  }
+  
+  .confirmation-message {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6rem; /* Equivalent to mt-24 */
+    gap: 1.5rem; /* Equivalent to space-y-6 */
+  }
+  
+  .confirmation-title {
+    color: #16a34a; /* Equivalent to text-green-600 */
+    font-weight: bold;
+    margin-bottom: 1rem; /* Equivalent to mb-4 */
+  }
+  
+  .link {
+    color: #0ea5e9; /* Equivalent to text-sky-950 */
+    font-family: serif;
+    font-size: 1.125rem; /* Equivalent to text-lg */
+    transition: underline 0.2s ease-in-out;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  .button {
+    width: 100%;
+    padding: 0.75rem; /* Equivalent to p-3 */
+    background-color: #16a34a; /* Equivalent to bg-green-500 */
+    color: white;
+    font-size: 1.5rem; /* Equivalent to text-2xl */
+    font-family: serif;
+    cursor: pointer;
+  }
+  

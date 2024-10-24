@@ -5,25 +5,26 @@ EEEEEE
 */
 
 .sectionTwo{
-  background-color: #9B7EBD;
+  /* background-color: #9B7EBD; */
   display: flex;
   justify-content: space-evenly;
   gap: 1em;
   height: auto;
   width: 100vw;
+  margin-bottom: 1em;
 }
 
 .book{
   
   height: 80px;
   width: 80px;
-  color: #D4BEE4;
+  color: #9B7EBD;
 
 }
 
 main{
   height: auto;
-  width: 100vw;
+  /* width: 100%; */
   background-color: #D4BEE4;
    
 }

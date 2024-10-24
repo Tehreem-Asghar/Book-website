@@ -26,6 +26,7 @@
   
   /* Rating text styling */
   .rating-text {
+    margin-top: 1em;
     margin-left: 8px;
     font-size: 14px;
     color: #4B5563; /* Greyish text */

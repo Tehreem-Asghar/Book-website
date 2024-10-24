@@ -4,6 +4,7 @@ import { RiShoppingCartFill } from "react-icons/ri";
 import { IoMdMenu } from "react-icons/io";
 import { useState } from "react";
 import "../../style/header.css";
+import { text } from "stream/consumers";
 
 function Header() {
   // State to toggle menu visibility
@@ -41,7 +42,7 @@ function Header() {
           <Link href={"/contact"}>Contact us</Link>
         </div>
         <div>
-          <RiShoppingCartFill />
+         <Link href={'/cart'}><RiShoppingCartFill  style={{color : 'white'}}/> </Link> 
         </div>
       </nav>
     </header>

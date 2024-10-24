@@ -8,6 +8,7 @@
     max-width: 1024px;
     margin: 0 auto;
     padding: 24px;
+    background-color:#d4bee4 ;
   }
   
   /* Flex layout for image and details */
@@ -93,11 +94,14 @@
   
   .quantity-btn {
     font-size: 2rem;
-    padding: 8px;
+    padding: 2px 10px;
+    
     background-color: #EEE;
     border-radius: 8px;
     cursor: pointer;
     border: 1px solid #CCC;
+    width: auto;
+    color: #3B1E54;
   }
   
   .quantity-display {

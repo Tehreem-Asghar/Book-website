@@ -18,6 +18,9 @@
   .book-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+  .book-title{
+    font-size: 1rem;
+  }
 }
 
 /* Large screens (smaller laptops) - 3 columns */
@@ -50,13 +53,13 @@
 }
 
 .book-card:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 /* Image styling */
 .book-image {
   width: 100%; /* Full width of card */
-  height: auto; /* Fixed height */
+  height: 370px; /* Fixed height */
   object-fit: cover; /* Image fits without distortion */
   
 }
@@ -69,9 +72,9 @@
 /* Title styling */
 
 .book-title {
-  font-size: 1.22rem;
-  color: #5B2C6F;
-  margin-bottom: 8px;
+  font-size: 1.2rem;
+  color: #3B1E54;
+  margin-bottom: 4px;
   font-family: 'Times New Roman', serif;
   line-clamp: 2; /* Directly using line-clamp */
   overflow: hidden; /* Hide overflow */
@@ -87,7 +90,7 @@
 .book-author {
   font-size: 0.875rem;
   color: #FF1493;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 
 /* Price styling */
@@ -95,18 +98,18 @@
   font-size: 1.125rem;
   color: #FF8C00;
   font-weight: bold;
-  margin-top: 8px;
+  margin-top: 4px;
 }
 
 /* Stars styling */
 .stars {
-  margin: 8px 0;
+  margin: 4px 0;
 }
 
 /* Buy Now button */
 .buy-now-btn {
   width: 100%;
-  background-color: #9B7EBD;
+  background-color: #3B1E54;
   color: white;
   padding: 12px 0;
   border-radius: 8px;
@@ -117,7 +120,7 @@
 }
 
 .buy-now-btn:hover {
-  background-color: #9B7EBD;
+  background-color: #3B1E54;
 }
 
 
