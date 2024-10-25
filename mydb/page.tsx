@@ -77,7 +77,7 @@ export const books = [
     rating: 6,
     Edition: "3rd",
     Authors: "by John Paul Mueller (Author), Luca Massaron (Author)",
-    image: "/Images/python.png",
+    image: "/images/python.png",
     description:
       "Unlock the Power of Data Analysis with Python! Dive into the world of data science with Python for Data Science For Dummies. This comprehensive guide is perfect for beginners, offering step-by-step instructions on getting started with Python, performing data analysis, and mastering datasets with practical examples. Learn how to work with Google Colab, sample data, and perform coding tasks that simplify your analysis process. As you develop your skills, you will not only enhance your employability but also gain valuable insights into data-driven decision-making. Updated for the latest version of Python, this edition features relevant data examples, ensuring you have the most current knowledge at your fingertips.With a strong foundation in Python coding for data analysis, explore various career paths in data science and integrate multimedia and graphics into your projects. Plus, discover how to manage and organize your data using cloud-based relational databases. The demand for Python expertise is soaring—grab this user-friendly guide and embark on your journey to becoming a data pro!",
     Publisher: "For Dummies",
@@ -109,7 +109,7 @@ You'll learn to ask the right questions about the data you encounter, understand
     rating: 15,
     Edition: "2nd",
     Authors: "by John Paul Mueller (Author), Luca Massaron (Author)",
-    image: "/Images/algorithms.png",
+    image: "/images/algorithms.png",
     description:
       'Unlock the Power of Algorithms! From your Facebook News Feed to your insurance premiums and even how your toast is made, algorithms are woven into the fabric of modern life, influencing virtually everything we do. In Algorithms For Dummies, you will demystify these powerful problem-solving tools by learning what they are, how they work, and where to find them—spoiler alert: they are everywhere! This comprehensive guide includes graphs and charts to help you understand algorithms inner workings, links to an online GitHub repository for updated code, and step-by-step instructions on using Google Colaboratory, a zero-setup coding environment that runs directly in your browser. Whether you are a curious internet user or a beginning computer science student looking for a head start, this book is your essential resource for mastering algorithms and enhancing your understanding of the digital world.',
     Publisher: "For Dummies",
@@ -123,7 +123,7 @@ You'll learn to ask the right questions about the data you encounter, understand
     rating: 1659,
     Edition: "2nd",
     Authors: "by Walter Shields (Author)",
-    image: "/Images/sql.png",
+    image: "/images/sql.png",
     description:
       'Unlock Your Data Potential with SQL QuickStart Guide! The best SQL book for beginners in 2024, SQL QuickStart Guide offers a comprehensive, step-by-step approach to mastering the SQL programming language, making it the perfect resource for anyone preparing for a data-driven future. Written by SQL expert Walter Shields, who boasts over 25 years of experience, this guide is accessible for beginners while also serving college-level courses. With lifetime access to FREE digital bonuses—including a sample database, SQL commands cheat sheet, and hands-on exercises—readers will quickly learn the basic structure of databases, how to retrieve and interpret data efficiently, and the most important SQL queries for practical applications. Whether you are a developer looking to expand your skills, a job seeker aiming to enhance your resume, or a manager seeking to leverage data for business insights, this book is your essential tool for navigating modern data management. Join over a million readers who have benefited from this guide and take the first step toward becoming a data-savvy professional today!',
     Publisher: "For Dummies",
@@ -137,7 +137,7 @@ You'll learn to ask the right questions about the data you encounter, understand
     rating: 490,
     Edition: "1st",
     Authors: "by Joe Reis (Author), Matt Housley (Author)",
-    image: "/Images/fundamentals.png",
+    image: "/images/fundamentals.png",
     description:
       'Master Data Engineering with a Comprehensive Guide! In the rapidly evolving field of data engineering, Data Engineering: A Practical Guide by Joe Reis and Matt Housley provides software engineers, data scientists, and analysts with an essential overview of the data engineering lifecycle. This practical book empowers you to plan and build systems tailored to meet your organization’s and customers’ needs by evaluating the best available technologies. The authors guide you through critical concepts such as data generation, ingestion, orchestration, transformation, storage, and governance, equipping you with the knowledge to tackle data engineering challenges effectively. You will gain insights into assessing data engineering problems using an end-to-end framework of best practices, cutting through marketing hype to make informed choices about data technologies and architecture. With this book, you will learn to design and build robust data architectures while incorporating data governance and security throughout the lifecycle, ensuring your systems are both effective and secure.',
     Publisher: "For Dummies",
@@ -165,7 +165,7 @@ You'll learn to ask the right questions about the data you encounter, understand
     rating: 89,
     Edition: "2nd",
     Authors: "by Chris Minnick (Author)",
-    image: "/Images/coding.png",
+    image: "/images/coding.png",
     description:
       'Unlock Your Coding Potential with the Second Edition of Coding All-in-One For Dummies! Updated for the 2020s, this comprehensive guide offers a fresh take on coding, introducing key topics such as developing native mobile apps for Android and iOS using Flutter, understanding cloud computing, and exploring enhanced coverage of JavaScript, including the latest syntax. Transitioning from Python 2 to Python 3, the book also teaches responsive design with Flexbox and upgraded Bootstrap 5, while providing insights into data analysis using Python and NumPy. Perfect for beginners, this edition breaks down coding concepts into easy-to-follow instructions, making it accessible even for those with no prior experience. Whether you aim to enhance your current career or embark on a new journey as a professional developer, this guide equips you with the foundational skills in HTML, JavaScript, and Python needed to succeed. Dive into the world of coding today, automate routine tasks, and open doors to exciting career opportunities—Dummies makes it all possible!',
     Publisher: "For Dummies",
@@ -179,7 +179,7 @@ You'll learn to ask the right questions about the data you encounter, understand
     rating: 157,
     Edition: "2nd",
     Authors: "by Mark Reed (Author)",
-    image: "/Images/c.png",
+    image: "/images/c.png",
     description:
       'Transform Your Coding Skills with The Complete Python & SQL Programming Bootcamp From Zero To Hero 2024! If you’re a beginner feeling overwhelmed by the complexities of coding or looking for a reliable resource to elevate your programming skills, this bootcamp is your perfect solution. This all-in-one guide not only simplifies learning C# and C++ but also equips you with the practical tools and real-world applications needed to master these languages. Tailored for both novices and experienced programmers, the course offers an immersive experience through practical examples and hands-on exercises that build your confidence in tackling coding challenges. You’ll start with foundational concepts, progressing through data types, operators, object-oriented programming, file handling, and advanced features like asynchronous programming. Moreover, you’ll explore graphical user interfaces and web development basics, culminating in performance optimization strategies to ensure your programs run efficiently. With five comprehensive books in one, this resource provides all the essential knowledge to set you apart in the competitive job market. Whether you aspire to start a new career, freelance, or develop your own software, this guide has the insights and skills you need to become an invaluable asset to any organization. Dont wait—click Buy Now and embark on your journey to coding mastery today!',
     Publisher: "For Dummies",
@@ -193,7 +193,7 @@ You'll learn to ask the right questions about the data you encounter, understand
     rating: 29,
     Edition: "1st",
     Authors: "by Paul McFedries (Author)",
-    image: "/Images/html,css,js.png",
+    image: "/images/htm-css-js.png",
     description:
       'If you  are looking to dive into the world of web development, HTML, CSS, & JavaScript All-in-One For Dummies is a fantastic starting point. This book provides all the essential concepts you need for front-end web building and design, enabling you to create attractive and user-friendly websites using HTML, CSS, and JavaScript. With step-by-step instructions, you will learn how to build both static and dynamic sites, design intuitive layouts, and add engaging animations while also troubleshooting common issues. Web development is a fun and rewarding skill that can lead to a lucrative career, so grab this book and start your journey toward creating your dream website today!',
     Publisher: "For Dummies",
@@ -208,7 +208,7 @@ You'll learn to ask the right questions about the data you encounter, understand
     rating: 3,
     Edition: "1st",
     Authors: "by John Paul Mueller (Author), Luca Massaron (Author)",
-    image: "/Images/chatgpt.png",
+    image: "/images/chatgpt.png",
     description:
       "Artificial Intelligence (AI) is revolutionizing society, much like the personal computer and the internet did. This book is your guide to leveraging AI to enhance your creativity, productivity, and career. It offers clear, step-by-step instructions on using AI for tasks like analyzing visual data, writing books and articles, creating music, and even producing artwork and videos. Designed with beginner-friendly content, it covers practical ways to integrate AI into business writing, sales copy, and SEO, while also providing insights into the ethical and legal use of AI. With actionable advice on using AI to solve problems and navigate decisions, this book helps future-proof your career. Each chapter concludes with ideas on how to monetize AI, whether through side hustles, passive income streams, or transforming your business model. Embrace the AI revolution and gain a competitive edge by learning to use AI effectively. The future belongs to those who know how to harness the power of AI. Grab your copy today and start building a more innovative, efficient, and successful future!",
     Publisher: "For Dummies",
