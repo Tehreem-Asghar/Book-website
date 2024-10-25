@@ -8,6 +8,7 @@ import { FaLaptopCode, FaCode } from "react-icons/fa";
 import { IoLogoCodepen } from "react-icons/io";
 import { FeatureBooks } from "@/components/featureBooks";
 import ContactPage from "./contact/page";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -21,7 +22,7 @@ export default function Home() {
               all skill levels. Enhance your coding journey and become a
               programming pro today!
             </p>
-
+           <Link href={'/books'}>
             <Button
               text="Explore Now"
               style={{
@@ -33,6 +34,7 @@ export default function Home() {
                 cursor: "pointer",
               }}
             />
+            </Link>
           </div>
           <div className="image">
             <Image
