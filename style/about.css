@@ -2,13 +2,12 @@ main {
   font-family: 'Arial', sans-serif;
   padding: 1em; 
   margin: auto;
-  /* background-color: #EBD3F8; */
-  max-width: 1200px; /* Controlled max-width */
+  max-width: 1200px; 
   width: 100%;
 }
 
 section {
-  margin-bottom: 2em; /* Added more space between sections */
+  margin-bottom: 2em; 
   padding: 20px;
 }
 
@@ -53,15 +52,8 @@ ul li {
   font-size: 20px;
   color: #3B1E54;
   margin-bottom: 8px;
-  position: relative;
 }
 
-ul li::before {
-  content: '✔';
-  color: #7A1CAC;
-  position: absolute;
-  left: -20px;
-}
 
 /* Responsive Design */
 @media (max-width: 768px) {
@@ -82,17 +74,17 @@ ul li::before {
   }
 
   section {
-      padding: 15px; /* Adjust padding for small screens */
+      padding: 15px; 
   }
 }
 
 @media (max-width: 480px) {
   main {
-      padding: 0.8em; /* Reduced padding further for mobile */
+      padding: 0.8em; 
   }
 
   .about {
-      font-size: 24px;
+      font-size: 26px;
   }
 
   .secondHeading {
@@ -100,6 +92,6 @@ ul li::before {
   }
 
   p, ul li {
-      font-size: 14px;
+      font-size: 17px;
   }
 }

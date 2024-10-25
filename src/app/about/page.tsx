@@ -69,9 +69,7 @@ export default function About() {
         </p>
       </section>
 
-      <section
-        
-      >
+      <section>
         <h2 className="secondHeading">Stay Updated</h2>
         <p>
           We regularly update our collection with the latest trends and

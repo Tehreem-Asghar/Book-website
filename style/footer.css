@@ -1,40 +1,10 @@
-/* .footer {
-  background-color: #3b1e54;
-  max-width: 1200px;
-  width: 100%;
-  height: auto;
-  padding: 8px;
-  display: grid;
-  text-align: center;
-  color: white;
-}
 
-.navigation {
-  display: flex;
-  gap: 2em;
-  justify-content: center;
-}
-
-.navigation > a {
-  color: white;
-}
-
-.codebook {
-  margin-bottom: 8px;
-}
-
-.follow {
-  display: flex;
-  gap: 2em;
-  justify-content: center;
-  margin-top: 1em;
-} */
 .footer {
     background-color: #3b1e54;
     max-width: 1200px;
     width: 100%;
     height: auto;
-    padding: 8px; /* Slightly increased top-bottom padding */
+    padding: 8px; 
     display: flex;
     flex-direction: column;
     row-gap: 0.2em; 
@@ -44,7 +14,7 @@
   
   .footer h1 {
     font-size: 1.1rem;
-    margin-bottom: 0.2em; /* Reduced space below "Back To Top" */
+    margin-bottom: 0.2em; 
   }
   
   .navigation {
@@ -72,12 +42,16 @@
   }
   
   .footer p {
-    margin: 0.2em 0; /* Reduced space for paragraphs */
+    margin: 0.2em 0; 
     font-size: 0.85rem;
   }
   
   .footer h2 {
-    font-size: 1rem; /* Slightly reduced font size for "Follow Us" */
-    margin-bottom: 0.4em; /* Reduced space below heading */
+    font-size: 1rem; 
+    margin-bottom: 0.4em; 
   }
   
+  .size {
+    height : 30px;
+    width : 30px;
+  }

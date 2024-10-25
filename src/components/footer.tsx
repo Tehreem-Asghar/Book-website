@@ -28,21 +28,21 @@ function Footer() {
                   target="_blank"
                   className="linkdin"
                 >
-                  <FaLinkedin />
+                  <FaLinkedin  className='size'/>
                 </Link>
                 <Link
                   href="https://x.com/Tehreem1794730?t=IdwZfgI0lQAsXiPe7KfSJQ&s=08"
                   target="_blank"
                   className="twitter"
                 >
-                  <FaXTwitter />
+                  <FaXTwitter className='size'/>
                 </Link>
                 <Link
                   href="https://www.instagram.com/tehreem412?igsh=eGs4OWtsZ3Fwcnc2"
                   target="_blank"
                   className="insta"
                 >
-                  <FaInstagramSquare />
+                  <FaInstagramSquare className='size'/>
                 </Link>
             </div>
         </section>

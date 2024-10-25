@@ -2,10 +2,9 @@
     max-width: 1024px;
     margin: 0 auto;
     padding: 24px;
-    /* background-color:#d4bee4 ; */
+  
   }
   
-  /* Flex layout for image and details */
   .book-details {
     display: flex;
     flex-direction: column;
