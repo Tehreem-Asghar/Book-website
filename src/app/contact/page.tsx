@@ -16,6 +16,7 @@ import { useEffect } from "react";
     });
   }, []);
 
+  
   return (
     <div className="contact-wrapper">
       <div className="contact-left" data-aos="fade-right"  data-aos-offset="300"

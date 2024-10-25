@@ -1,16 +1,9 @@
-/*
-9B7EBD
-D4BEE4
-EEEEEE
-*/
-
 .sectionTwo{
-  /* background-color: #9B7EBD; */
   display: flex;
   justify-content: space-evenly;
   gap: 1em;
   height: auto;
-  width: 100vw;
+  max-width: 1200px;
   margin-bottom: 1em;
 }
 
@@ -71,6 +64,7 @@ EEEEEE
     max-width: 450px; /* Controls image size */
   }
   
+ 
   @media (max-width: 768px) {
     .sectionOne {
       flex-direction: column-reverse; /* Image on top for small screens */

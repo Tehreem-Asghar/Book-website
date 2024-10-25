@@ -76,12 +76,12 @@
   color: #3B1E54;
   margin-bottom: 4px;
   font-family: 'Times New Roman', serif;
-  line-clamp: 2; /* Directly using line-clamp */
-  overflow: hidden; /* Hide overflow */
-  display: block; /* Make sure it is a block element */
-  max-height: calc(2 * 1.5rem); /* Adjust max-height based on line height */
-  line-height: 1.5rem; /* Set line height */
-  cursor: pointer; /* Pointer cursor for clickable title */
+  line-clamp: 2; 
+  overflow: hidden; 
+  display: block; 
+  max-height: calc(2 * 1.5rem); 
+  line-height: 1.5rem; 
+  cursor: pointer; 
 }
 
 

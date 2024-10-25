@@ -1,5 +1,5 @@
 .featureBook{
-  width: 100vw;
+  max-width: 1200px;
   height: auto;
   padding: 1em;
  
@@ -71,7 +71,6 @@
 }
 
 button{
-
   margin-top: 0.5em; 
   padding: 5px;
   background-color: #3B1E54;

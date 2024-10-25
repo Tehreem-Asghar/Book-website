@@ -1,12 +1,11 @@
-/* contact.css */
-
 .contact-wrapper {
     display: flex;  
-    padding: 50px;
-    min-height: 100vh;
+    padding: 5px;
+    max-width: 1200px; 
+    width: 100%;
     gap : 1em;
-    /* justify-content: space-between; */
-    
+    height: auto;
+    padding: 2em 0;
   }
   
   .contact-left {
@@ -16,6 +15,7 @@
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
     border-radius: 20px;
     align-self: center;
+    width: 100%;
   }
   
   .contact-right {
@@ -24,10 +24,9 @@
     padding: 40px;
     align-self: center;
     border-radius: 20px;
+    width: 100%;
   }
-  
-  
-  
+   
   .contact-title {
     font-size: 2.5rem;
     margin-bottom: 20px;
@@ -103,15 +102,12 @@
  .insta{
   color: rgb(187, 27, 53);
  }
+
+ 
   @media (max-width: 768px) {
     .contact-wrapper {
       flex-direction: column;
-    }
-  
-    .contact-left,
-    .contact-right {
-      width: 100%;
-      margin-bottom: 30px;
+   
     }
   }
   

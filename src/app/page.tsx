@@ -4,67 +4,63 @@ import Button from "@/components/button";
 import About from "./about/page";
 import { SiBookstack } from "react-icons/si";
 import { GiBookshelf } from "react-icons/gi";
-import { FaLaptopCode,FaCode } from "react-icons/fa";
+import { FaLaptopCode, FaCode } from "react-icons/fa";
 import { IoLogoCodepen } from "react-icons/io";
 import { FeatureBooks } from "@/components/featureBooks";
-import ContactPage from './contact/page'
+import ContactPage from "./contact/page";
 
 export default function Home() {
   return (
-   
-    <main >
-       <div className="main" > 
-      <section className="sectionOne">
-        <div className="text">
-          <h2>Master Programming with Essential Books</h2>
-          <p>
-            Explore our selection of essential programming books, perfect for
-            all skill levels. Enhance your coding journey and become a
-            programming pro today!
-          </p>
+    <main>
+      <div className="main">
+        <section className="sectionOne">
+          <div className="text">
+            <h2>Master Programming with Essential Books</h2>
+            <p>
+              Explore our selection of essential programming books, perfect for
+              all skill levels. Enhance your coding journey and become a
+              programming pro today!
+            </p>
 
-          <Button
-            text="Explore Now"
-            style={{
-              padding: "10px 20px",
-              backgroundColor: "#3B1E54",
-              color: "white",
-              borderRadius: "5px",
-              border: "2px solid #3B1E54",
-              cursor: "pointer",
-               
-            }}
-          />
-        </div>
-        <div className="image">
-              <Image
-                src={"/images/banner.png"}
-                height={400}
-                width={450}
-                alt="Programming books banner"
-              />
-            </div>
-      </section>
+            <Button
+              text="Explore Now"
+              style={{
+                padding: "10px 20px",
+                backgroundColor: "#3B1E54",
+                color: "white",
+                borderRadius: "5px",
+                border: "2px solid #3B1E54",
+                cursor: "pointer",
+              }}
+            />
+          </div>
+          <div className="image">
+            <Image
+              src={"/images/banner.png"}
+              height={400}
+              width={450}
+              alt="Programming books banner"
+            />
+          </div>
+        </section>
       </div>
-       <section className="sectionTwo">
-      
-       <SiBookstack className="book"/>
-       <FaLaptopCode className="book"/>
-       <GiBookshelf className="book"/>
-       <FaCode className="book"/>
-       <IoLogoCodepen  className="book" />
-       </section>
+      <section className="sectionTwo">
+        <SiBookstack className="book" />
+        <FaLaptopCode className="book" />
+        <GiBookshelf className="book" />
+        <FaCode className="book" />
+        <IoLogoCodepen className="book" />
+      </section>
       <section>
-         <FeatureBooks/>
-        </section>
+        <FeatureBooks />
+      </section>
 
-        <section>
-          <ContactPage/>
-        </section>
-        <section>
-          <About/>
-          </section>
-      </main>
-         
+      <section>
+        <ContactPage />
+      </section>
+      <section>
+        <About />
+      </section>
+    </main>
   );
 }
