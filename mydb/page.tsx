@@ -226,7 +226,7 @@ export const featureBooks =[
     rating: 17,
     Edition: "new Edition",
     Authors: "Philip Ackermann ",
-    image: "/Images/full stack.jpg",
+    image: "/images/fullstack.png",
     description:
       'This comprehensive guide equips aspiring and professional full-stack web developers with the skills to master both frontend and backend technologies. You will learn how to design stunning websites using HTML and CSS, bring interactivity through JavaScript, and navigate web protocols, formats, and architectures. The book covers key concepts like APIs, PHP, Node.js, web services, databases, testing, security, and optimization. Whether you are learning the basics of web development or refining your backend programming, this all-in-one resource provides everything needed to excel in full-stack web development.',
     Publisher: "Rheinwerk Computing",
@@ -240,7 +240,7 @@ export const featureBooks =[
     rating: 12,
     Edition: "1st",
     Authors: " Sebastian Springer ",
-    image: "/Images/react.jpg",
+    image: "/images/react.png",
     description:
       'React.js simplifies the development of dynamic user interfaces, making it faster and more efficient. This guide offers a complete walkthrough for developers of all skill levels. Start by understanding the core concepts of React and how it functions. Then, follow hands-on examples to build applications, covering everything from styling with CSS to optimizing performance. Whether you are new to JavaScript or an experienced developer, you will learn how to utilize React classes, hooks, forms, testing, and more to create robust frontend applications. Dive into advanced topics like Redux, server-side rendering, and debugging for larger projects.',
     Publisher: "Rheinwerk Computing",
@@ -254,7 +254,7 @@ export const featureBooks =[
     rating: 64,
     Edition: "Comprehensive",
     Authors: "Sebastian Springer ",
-    image: "/Images/node.jpg",
+    image: "/images/node.png",
     description:
       'Node.js is essential for developing server-side JavaScript applications. This guide starts with the basics, including installation, understanding the Node.js environment, and structuring applications. Through detailed examples, you will explore web development using frameworks like Express and Nest.js, and master asynchronous programming with approaches like RxJS and data streams. It also covers critical topics like testing, security, and performance, making it a comprehensive reference for Node.js development. From setting up web servers and connecting databases to scaling and optimizing your apps, this guide ensures you have everything you need for backend JavaScript programming.',
     Publisher: "Rheinwerk Computing",
@@ -268,7 +268,7 @@ export const featureBooks =[
     rating: 133,
     Edition: "4th",
     Authors: "Ben Frain ",
-    image: "/Images/res web.jpg",
+    image: "/images/resweb.png",
     description:
       'Responsive Web Design with HTML5 and CSS, Fourth Edition is a comprehensive guide that helps you master the latest techniques for building responsive websites that adapt seamlessly across devices like mobile phones, tablets, and desktops. With a focus on modern HTML5 and CSS features, this book covers essential topics such as media queries, Grid and Subgrid layouts, accessibility, color manipulation, and more. Whether you are a front-end developer or looking to enhance your web design skills, this book provides practical examples and expert tips to create visually stunning, user-friendly websites without needing JavaScript.',
     Publisher: "Packt Publishing",
