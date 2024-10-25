@@ -11,7 +11,7 @@ import ContactPage from './contact/page'
 
 export default function Home() {
   return (
-    <>
+   
     <main >
        <div className="main" > 
       <section className="sectionOne">
@@ -66,6 +66,5 @@ export default function Home() {
           </section>
       </main>
          
-        </>
   );
 }

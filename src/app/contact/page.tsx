@@ -22,7 +22,7 @@ import { useEffect } from "react";
      data-aos-easing="ease-in-sine" >
         
         <h1 className="contact-title">Contact Us</h1>
-        <p className="contact-description"> your feedback, questions, and suggestions are important to us. Whether you're looking for a specific book, need help with an order, or simply want to share your thoughts, we are here to assist you!</p>
+        <p className="contact-description"> your feedback, questions, and suggestions are important to us. Whether you are looking for a specific book, need help with an order, or simply want to share your thoughts, we are here to assist you!</p>
         <h2 className="touch"> Get in Touch </h2>
         <p className="information"> <strong> Address: </strong> 123 Tech Avenue, Karachi, Pakistan  </p>
         <p className='information'> <strong>Phone:</strong> +92 321 654 9870 </p>

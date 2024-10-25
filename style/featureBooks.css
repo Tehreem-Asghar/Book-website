@@ -10,9 +10,9 @@
   text-align: center;
   color: #3B1E54;
   font-weight: 700;
-  margin-bottom: 2rem; /* Equivalent to `mb-8` */
+  margin-bottom: 2rem; 
   text-decoration: underline;
-  text-decoration-thickness: 2px; /* Equivalent to `underline-offset-8` */
+  text-decoration-thickness: 2px; 
   text-underline-offset: 8px; 
   margin-top: 1em;
 
@@ -49,8 +49,7 @@
 
 .content{
   display: grid;
-  gap: 5px;
-  margin-top: 8px;
+  margin-top: 0.5em;
 }
 
 .content>h2{
@@ -59,15 +58,21 @@
 
 .author{
   color: rgb(190, 60, 82);
+
+
+  margin: 0; 
 }
 
 .price{
   color: coral;
   font-weight: 700;
+
+  margin: 0px;
 }
 
 button{
-  margin-top: 5px;
+
+  margin-top: 0.5em; 
   padding: 5px;
   background-color: #3B1E54;
   color: white;
@@ -84,5 +89,7 @@ button{
 @media (min-width: 500px) and (max-width: 765px) { 
   .books-grid {
     grid-template-columns: repeat(2, 1fr); /* 2 columns for screens between 500px and 765px */
-  }
+ }
 }
+
+

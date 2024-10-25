@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import '/style/cart.css'; // Import the CSS file
+import '/style/cart.css'; 
 
 interface booktype {
   id: number;
@@ -61,7 +61,7 @@ export default function Cart() {
   return (
     <main className="main-container">
       {cartItems.length > 0 || orderConfirm ? (
-        <div className="table-container">
+        <div className="container">
           {orderConfirm ? (
             <div className="confirmation-message">
               <h2 className="confirmation-title">
@@ -75,7 +75,7 @@ export default function Cart() {
               </Link>
             </div>
           ) : (
-            <table className="table-auto border-collapse w-full">
+            <table >
               <thead>
                 <tr className="table-header">
                   <th className="table-cell">Item</th>
@@ -86,18 +86,18 @@ export default function Cart() {
               <tbody>
                 {cartItems.map((item) => (
                   <tr key={item.selectedBook.id} className="table-row">
-                    <td className="flex flex-col md:flex-row justify-center items-center space-x-4 p-2 md:p-5">
+                    <td className="item">
                       <Image
                         src={item.selectedBook.image}
                         alt={item.selectedBook.title}
                         height={100}
                         width={100}
-                        className="rounded-md mb-2 md:mb-0"
+                        
                       />
-                      <div>
-                        <h3 className="text-lg md:text-xl font-semibold">{item.selectedBook.title}</h3>
+                      <div className = 'itemContent'>
+                        <h5 >{item.selectedBook.title}</h5>
                         <button
-                          className="text-red-600 hover:text-red-800 mt-2 transition duration-200"
+                          className="removeButton"
                           onClick={() => handleRemove(item.selectedBook.id)}
                         >
                           Remove
@@ -105,7 +105,7 @@ export default function Cart() {
                       </div>
                     </td>
                     <td className="table-cell">{item.quantity}</td>
-                    <td className="table-cell text-green-600">
+                    <td className="table-cell ">
                       ${(item.selectedBook.price * item.quantity).toFixed(2)}
                     </td>
                   </tr>
@@ -116,19 +116,19 @@ export default function Cart() {
                   <td className="text-right" colSpan={2}>
                     SubTotal
                   </td>
-                  <td className="text-green-600">${calculateTotalPrice().toFixed(2)}</td>
+                  <td >${calculateTotalPrice().toFixed(2)}</td>
                 </tr>
                 <tr className="subtotal">
                   <td className="text-right" colSpan={2}>
                     Delivery Charges
                   </td>
-                  <td className="text-green-600">$85</td>
+                  <td>$85</td>
                 </tr>
                 <tr className="subtotal">
-                  <td className="text-right" colSpan={2}>
+                  <td  colSpan={2}>
                     Total
                   </td>
-                  <td className="text-green-600">${(calculateTotalPrice() + 85).toFixed(2)}</td>
+                  <td >${(calculateTotalPrice() + 85).toFixed(2)}</td>
                 </tr>
                 <tr>
                   <td colSpan={3}>
@@ -146,7 +146,7 @@ export default function Cart() {
         </div>
       ) : (
         <div className="confirmation-message">
-          <h2 className="text-red-600 font-bold mb-4 text-xl md:text-3xl lg:text-5xl">
+          <h2>
             No items in the cart
           </h2>
           <Link href="/books" className="link">

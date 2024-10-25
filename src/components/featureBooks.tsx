@@ -76,7 +76,7 @@ export function FeatureBooks() {
   return (
     <div className="featureBook">
 
-       <h1 className="trendingBooks">Trending Books </h1>
+       <h2 className="trendingBooks">Trending Books </h2>
 
       <div className="books-grid"   >
         {Books.map((book) => (
@@ -97,6 +97,7 @@ export function FeatureBooks() {
               </h2>
               <p className="author">{book.Authors}</p>
               <p className="price">Price: ${book.price}</p>
+
                <h1>
                 <Stars stars={book.star} rating={book.rating} />
                </h1>

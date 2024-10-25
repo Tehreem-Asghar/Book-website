@@ -80,6 +80,7 @@ export function Card() {
               >
                 {book.title}
               </h2>
+              
               <p className="book-author">{book.Authors}</p>
               <p className="book-price">Price: ${book.price}</p>
               <h1>
