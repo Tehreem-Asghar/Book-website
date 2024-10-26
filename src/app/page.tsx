@@ -12,7 +12,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main>
+    <main style={{ overflowX: 'hidden' }}>
       <div className="main">
         <section className="sectionOne">
           <div className="text">
