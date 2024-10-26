@@ -8,7 +8,7 @@ function Footer() {
   return (
     <main className='footer'>
         <section> 
-        <h1>Back To Top</h1>
+        <Link href={'#'}  className='top'>  Back To Top </Link>
         </section>
         <section className='navigation'>
             <Link href={'/'}> Home</Link>

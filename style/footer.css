@@ -12,9 +12,11 @@
     color: white;
   }
   
-  .footer h1 {
+
+  .footer .top {
     font-size: 1.1rem;
     margin-bottom: 0.2em; 
+    color: white;
   }
   
   .navigation {
@@ -32,6 +34,7 @@
   
   .codebook {
     margin-bottom: 0.2em;
+    
   }
   
   .follow {
@@ -44,6 +47,7 @@
   .footer p {
     margin: 0.2em 0; 
     font-size: 0.85rem;
+    color: white;
   }
   
   .footer h2 {

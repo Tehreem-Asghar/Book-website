@@ -13,10 +13,12 @@
   color: #9b7ebd;
 }
 
+
 .main {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow-x: hidden;
 }
 
 .sectionOne {
